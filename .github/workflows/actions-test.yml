@@ -5,3 +5,9 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - run: echo "🎉 This job was triggered automatically!"
+
+ Explore-GitHub-Actions_2:
+   runs-on: ubuntu-latest
+   needs: Explore-GitHub-Actions
+   steps:
+     - run: echo "🎉 This job was triggered automatically second time!"
