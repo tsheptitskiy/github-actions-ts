@@ -1,10 +1,14 @@
 name: First workflow
-on: [push]
+on: [push, pull_request]
 jobs:
  Explore-GitHub-Actions:
    runs-on: ubuntu-latest
    steps:
-     - run: echo "🎉 This job was triggered automatically!"
+   - name: Step 1
+   - run: echo "🎉 This job was triggered automatically Step 1!"
+   - name: Step 2
+   - run: echo "🎉 This job was triggered automatically Step 2!"
+    
 
  Explore-GitHub-Actions_2:
    runs-on: ubuntu-latest
