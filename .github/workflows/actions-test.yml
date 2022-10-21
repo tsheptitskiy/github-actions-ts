@@ -5,9 +5,9 @@ jobs:
    runs-on: ubuntu-latest
    steps:
    - name: Step 1
-   - run: echo "🎉 This job was triggered automatically Step 1!"
+     run: echo "🎉 This job was triggered automatically Step 1!"
    - name: Step 2
-   - run: echo "🎉 This job was triggered automatically Step 2!"
+     run: echo "🎉 This job was triggered automatically Step 2!"
     
 
  Explore-GitHub-Actions_2:
