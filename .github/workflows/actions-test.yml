@@ -8,6 +8,8 @@ jobs:
      run: echo "🎉 This job was triggered automatically Step 1!"
    - name: Step 2
      run: echo "🎉 This job was triggered automatically Step 2!"
+   - name: Checkout
+     uses: actions/checkout@v3
    - name: Comment on pull_request
      uses: thollander/actions-comment-pull-request@v1
      with:
