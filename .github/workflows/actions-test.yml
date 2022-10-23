@@ -1,5 +1,5 @@
 name: First workflow
-on: [push, pull_request]
+on: [pull_request]
 jobs:
  Explore-GitHub-Actions:
    runs-on: ubuntu-latest
@@ -12,8 +12,9 @@ jobs:
      uses: thollander/actions-comment-pull-request@v1
      with:
           message: |
-              Hello World! :wave:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}     
+               Hello world ! :wave:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     
 
  Explore-GitHub-Actions_2:
